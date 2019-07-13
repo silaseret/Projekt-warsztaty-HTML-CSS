@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+
 .main_width {
   margin: 0 auto;
   max-width: 1024px;
@@ -8,3 +12,19 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 10px 40px 10px 40px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+.nav-ul,
+.drop {
+  list-style: none;
+}
+
+
