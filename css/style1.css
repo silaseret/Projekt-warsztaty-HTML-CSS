@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin: 10px 40px 10px 40px;
+  padding: 10px 100px 10px 40px;
   background-color: black;
   color: white;
   font-weight: 700;
@@ -29,9 +29,6 @@ body {
 }
 .navigation-list-element {
   display: inline-block;
-}
-.navigation-list-element:hover {
-  color: red;
 }
 .drop {
   display: none;
@@ -47,7 +44,7 @@ body {
 .drop-list-element {
   display: block;
 }
-.o-firmie {
+.about-company {
   position: relative;
 }
 .drop {
