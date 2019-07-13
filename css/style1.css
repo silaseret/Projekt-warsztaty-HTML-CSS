@@ -1,32 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-
-.main_width {
-margin: 0 auto;
-max-width: 1024px;
-padding-left: 40px;
-padding-right: 40px;
 }
-
-body {
-font-family: "Raleway", sans-serif;
-}
-.main {
-display: flex;
-justify-content: space-between;
-align-content: center;
-margin: 10px 40px 10px 40px;
-background-color: black;
-color: white;
-font-weight: 700;
-}
-
-.nav-ul,
-.drop {
-list-style: none;
-}
-
 
 .main_width {
   margin: 0 auto;
@@ -37,4 +12,44 @@ list-style: none;
 
 body {
   font-family: "Raleway", sans-serif;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 10px 40px 10px 40px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+.nav-ul,
+.drop {
+  list-style: none;
+}
+.navigation-list-element {
+  display: inline-block;
+}
+.navigation-list-element:hover {
+  color: red;
+}
+.drop {
+  display: none;
+}
+.navigation-list-element:hover .drop {
+  display: block;
+}
+
+/* .navigation-list-element .drop {
+  text-transform: uppercase;
+} */
+
+.drop-list-element {
+  display: block;
+}
+.o-firmie {
+  position: relative;
+}
+.drop {
+  position: absolute;
 }
