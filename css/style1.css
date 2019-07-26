@@ -7,15 +7,19 @@
   color: rgb(36, 186, 159);
 }
 
-.main_width {
+/* .main_width {
   margin: 0 auto;
   max-width: 1024px;
   padding-left: 40px;
   padding-right: 40px;
-}
+} */
 
 body {
   font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .main {
   display: flex;
@@ -149,3 +153,59 @@ body {
   text-decoration: none;
 }
 /* Sekcja pierwsza z czarnym krzesłem - koniec*/
+/* Sekcja druga*/
+
+.middle2 {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: white;
+  padding: 20px;
+}
+.middle2-left {
+  width: 32%;
+  box-sizing: border-box;
+  position: relative;
+  background-image: url("../images/box1_img.jpg");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+}
+.middle2-middle {
+  width: 32%;
+  box-sizing: border-box;
+}
+.middle2-right {
+  width: 32%;
+  border: 2px solid lightgray;
+  padding: 25px 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+.middle2-right-desc {
+  margin-top: 10px;
+}
+
+.img-chair-container {
+  position: absolute;
+  bottom: 50px;
+  background-color: rgba(229, 229, 229, 0.6);
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.chair-header {
+  border-bottom: 5px solid rgb(36, 186, 159);
+  /* display: inline; */
+  width: 180px;
+}
+.middle2-middle {
+  width: 30%;
+  /* height: 150px; */
+  box-sizing: border-box;
+  position: relative;
+  background-image: url("../images/box2_img.jpg");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+}
