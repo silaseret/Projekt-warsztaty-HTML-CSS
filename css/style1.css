@@ -212,27 +212,47 @@ body {
 /*Sekcja druga - koniec*/
 
 /*Sekcja trzecia*/
+.middle3 {
+  background-color: rgb(241, 241, 241);
+  padding: 40px 60px 40px 60px;
+  height: 450px;
+}
+
+.middle3-main {
+  display: flex;
+  justify-content: space-between;
+}
+
 .middle3-info {
   position: relative;
   top: 50px;
-  border: 2px solid red;
-  width: 100%;
-  height: 300px;
+  border: 2px solid rgb(178, 178, 178);
+  width: 30%;
+  height: 350px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  background-color: rgb(239, 239, 239);
+  flex-direction: column;
+  background-color: rgb(249, 249, 249);
+  box-sizing: border-box;
+  padding: 30px 0 0 0;
 }
+
+.middle3-info:nth-of-type(2n) {
+  background-color: rgb(36, 186, 159);
+  border-color: rgb(36, 186, 159);
+}
+
 .circle {
   position: absolute;
-  top: -25px;
+  top: -35px;
   left: calc(50% - 25px);
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: white;
   background-size: cover;
-  border: 2px solid black;
+  border: 2px solid rgb(178, 178, 178);
 }
 .circle::after {
   content: "";
@@ -241,12 +261,113 @@ body {
   left: 50%;
   width: 15px;
   height: 15px;
-  background-color: black;
-  border: 2px solid black;
+  background-color: rgb(178, 178, 178);
+  border: 2px solid rgb(178, 178, 178);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   display: block;
 }
-h2 {
+
+.middle .circle {
+  border-color: rgb(36, 186, 159);
+  background-color: rgb(36, 186, 159);
+}
+
+.middle .circle::after {
+  border-color: white;
+  background-color: white;
+}
+
+.middle .middle3-info-header {
+  color: white;
+}
+
+.price-circle {
+  border-radius: 50%;
+  border: 2px solid rgb(178, 178, 178);
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(178, 178, 178);
+  background-color: white;
+  /* display: flex;
+  flex-direction: column; */
+}
+.middle .price-circle {
+  /* border-color: rgb(36, 186, 159);
+  background-color: rgb(36, 186, 159); */
+  border-color: white;
+  background-color: white;
+  color: rgb(36, 186, 159);
+}
+
+.price-box {
+  font-weight: 900;
+  display: inline-block;
+  text-align: center;
+}
+
+.price-main {
   font-size: 20px;
+}
+
+.price-sup {
+  font-size: 12px;
+}
+
+.price-desc {
+  font-size: 12px;
+}
+
+.middle3-price-list {
+  list-style: none;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+
+.middle3-price-list-item {
+  /* background-color: rgb(220, 220, 220); */
+  width: 100%;
+  height: 25px;
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.middle3-price-list-item:nth-of-type(2n + 1) {
+  background-color: rgb(220, 220, 220);
+}
+
+.middle .middle3-price-list-item:nth-of-type(2n + 1) {
+  background-color: white;
+}
+
+.middle3-price-list-item:nth-of-type(2n) {
+  background-color: rgb(230, 230, 230);
+}
+
+.middle3-btn-join {
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  width: 120px;
+  padding: 5px 30px;
+  font-size: 14px;
+  display: inline-block;
+  border: none;
+  position: absolute;
+  bottom: 10px;
+  background-color: rgb(36, 186, 159);
+  color: white;
+}
+
+.middle .middle3-btn-join {
+  background-color: white;
+  color: rgb(36, 186, 159);
 }
