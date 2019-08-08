@@ -6,6 +6,13 @@
 .light-color {
   color: rgb(36, 186, 159);
 }
+.light-grey {
+  color: rgb(150, 150, 150);
+}
+
+.strong-grey {
+  color: rgb(120, 120, 120);
+}
 
 /* .main_width {
   margin: 0 auto;
@@ -20,7 +27,16 @@ body {
   max-width: 1024px;
   padding-left: 40px;
   padding-right: 40px;
+  color: black;
 }
+
+/* h2 {
+  color: rgb(120, 120, 120);
+}
+h3 {
+  color: black;
+} */
+
 .main {
   display: flex;
   justify-content: space-between;
@@ -336,6 +352,7 @@ body {
   display: block;
   text-align: center;
   padding-top: 6px;
+  /* color: rgb(150, 150, 150); */
 }
 
 .middle3-price-list-item:nth-of-type(2n + 1) {
@@ -370,4 +387,22 @@ body {
 .middle .middle3-btn-join {
   background-color: white;
   color: rgb(36, 186, 159);
+}
+
+footer {
+  padding: 20px 60px 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+
+.footer-bold {
+  font-weight: 900;
 }
